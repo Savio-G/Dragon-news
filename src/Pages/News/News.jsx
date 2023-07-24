@@ -5,9 +5,9 @@ const News = () => {
   const { thumbnail_url, category_id, title, details } = news
   return (
 
-    <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="rounded-lg shadow dark:bg-gray-800 ">
       <a href="#">
-        <img className="h-1/3 w-full object-fill overflow-hidden rounded-t-lg " src={thumbnail_url} alt="" />
+        <img className="h-1/4 w-full object-fill  rounded-t-lg " src={thumbnail_url} alt="" />
       </a>
       <div className="p-5">
         <a href="#">
